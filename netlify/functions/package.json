@@ -1,15 +1,15 @@
 {
-  "name": "netlify-functions",
+  "name": "your-project-name",
   "version": "1.0.0",
-  "description": "Dependencies for Netlify Functions",
-  "main": "chat.js",
+  "description": "A website about Quantum Mechanics with an AI assistant.",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "netlify dev"
   },
   "keywords": [],
-  "author": "",
+  "author": "Your Name or GitHub Username",
   "license": "ISC",
   "dependencies": {
-    "openai": "^4.0.0" 
+    "openai": "^4.0.0"
   }
 }
