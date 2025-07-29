@@ -1,4 +1,4 @@
-// netlify/functions/chat.js
+ // netlify/functions/chat.js
 const OpenAI = require('openai');
 
 // Initialize OpenAI with your API key from environment variables
@@ -49,7 +49,7 @@ exports.handler = async function(event, context) {
       statusCode: 500,
       headers: {
         "Content-Type": "application/json",
-        "Access-Control-Allow-Origin": "https://plant-cx.github.io/website/", // IMPORTANT: CHANGE THIS!
+        "Access-Control-Allow-Origin": "https://stupendous-basbousa-a1923a.netlify.app/", // IMPORTANT: CHANGE THIS!
         "Access-Control-Allow-Methods": "POST, OPTIONS",
         "Access-Control-Allow-Headers": "Content-Type",
       },
